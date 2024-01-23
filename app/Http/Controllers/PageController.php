@@ -9,9 +9,9 @@ class PageController extends Controller
 {
     public function index()
     {
-        $risposta = config("database");
+
         $movies = Movie::all();
 
-        return view('home', compact("risposta", "movies"));
+        return view('home', compact("movies"));
     }
 }
