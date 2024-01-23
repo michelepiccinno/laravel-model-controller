@@ -11,3 +11,23 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.card {
+    font-family: 'Courier New', Courier, monospace;
+
+    .card-title {
+        background-color: antiquewhite;
+    }
+
+    .card-text {
+        background-color: aliceblue;
+    }
+
+    .original-title {
+        border: 1px dashed red;
+    }
+
+    .nationality {
+        border: 1px dashed green;
+    }
+}
